@@ -100,7 +100,7 @@ public class LocalDateTimeMain {
 ```
 - `LocalDate`와 `LocalTime`을 `toXxx()` 메서드로 분리 가능
 
-**isEqual() vs equals()**
+✅ **isEqual() vs equals()**
 - **`isEquals()`**: 객체, 타임존이 달라도 시간적으로 같은면 `true` 반환
 - **`equals()`**: 객체의 타입, 타임존 등등 내부 데이터의 모든 구성요소가 같아야 `true` 반환
 
@@ -152,5 +152,100 @@ public class test {
 <br>
 
 ## ZonedDateTime
+- `ZonedDateTime`은 LocalDateTime에 시간대 정보인 **ZoneID**(타임존)가 합쳐진 상태
+- 시간대(타임존) 정보를 포함한 날짜와 시간을 표현
+
+```java
+public class ZonedDateTime {
+    private final LocalDateTime dateTime;
+    private final ZoneOffset offset;
+    private final ZoneId zone;
+}
+```
+
+✅ **타임존(Time Zone)**  
+- 정의: 지역마다 다른 시간을 정리하기 위한 기준
+- 형태: `Asia/Seoul`, `UTC`, `Europe/London` 등
+- 특징: 타임존 이름만으로 **해당 지역의 시간 정보**, **오프셋**, **서머타임** 여부 확인 가능
+
+✅ **오프셋(Offset)**  
+- 정의: UTC를 기준으로 얼마나 빠르거나 느린지를 나타내는 시간 차이  
+- 형태: `+09:00`, `-5:00` 등
+- 특징: 
+    - 타임존을 통해 오프셋 유추 가능
+    - 일광 절약 시간제(DST)가 적용되면 오프셋 변동
+    - 오프셋만으로 DST를 알 수 없음
+  
+<br>
+
+```java
+import java.time.LocalDateTime;
+import java.time.ZoneId;
+import java.time.ZonedDateTime;
+
+public class ZonedDateTimeMain {
+    public static void main(String[] args) {
+
+        ZonedDateTime nowZdt = ZonedDateTime.now();
+        System.out.println("nowZdt = " + nowZdt);
+
+        LocalDateTime ldt = LocalDateTime.of(2030,1,1,13,30,50);
+        ZonedDateTime zdt = ZonedDateTime.of(ldt, ZoneId.of("Asia/Seoul"));
+        System.out.println("zdt = " + zdt);
+
+        ZonedDateTime zdt2 = ZonedDateTime.of(2030,1,1,13,30, 50,0, ZoneId.of("Asia/Seoul"));
+        System.out.println("zdt2 = " + zdt2);
+
+        ZonedDateTime utcZdt = zdt2.withZoneSameInstant(ZoneId.of("UTC"));
+        System.out.println("utcZdt = " + utcZdt);
+    }
+}
+```
+- `ZonedDateTime.of(LocalDateTime, ZoneId)`: LocalDateTime에 ZoneId를 추가하여 생성 가능
+    - 나노초 생략하여 생성하면 자동으로 `0` 설정
+    
+- `withZoneSameInstant(ZoneID)`: 기존 ZonedDateTime의 **타임존을 변경**
+    - 해당 타임존에 맞게 시간도 자동 조정   
+
+<br>
+
+## OffsetDateTime
+- `OffsetDateTime`은 `LocalDateTime`에 UTC 오프셋 정보인 ZoneOffset이 합쳐진 상태
+- 타임존은 존재하지 않고, UTC로 부터의 시간대 차이인 고정된 **오프셋만 포함**
+- ZoneId가 없으므로 **DST 적용 X**
+
+```java
+public class OffsetDateTime {
+    private final LocalDateTime dateTime;
+    private infal ZoneOffset offset;
+}
+```
+
+<br>
+
+```java
+import java.time.*;
+
+public class OffsetDateTimeMain {
+    public static void main(String[] args) {
+        OffsetDateTime nowOdt = OffsetDateTime.now();
+        System.out.println("nowOdt = " + nowOdt);
+
+        LocalDateTime ldt = LocalDateTime.of(2030,1,1,13,30,50);
+        System.out.println("ldt = " + ldt);
+        OffsetDateTime odt = OffsetDateTime.of(ldt, ZoneOffset.of("+09:00"));
+        System.out.println("odt = " + odt);
+    }
+}
+```
+<br>
+
+✅ **ZonedDateTime vs OffsetDateTime**
+- ZonedDateTime은 지역 기반 시간대를 포함해 복잡한 시간 계산에 적합
+- OffsetDateTime은 UTC 기준 오프셋만 고려해 단순 기록 및 저장에 적합
+
+<br>
+
+## Instant
 
 
