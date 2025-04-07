@@ -3,5 +3,5 @@
 
 
 ## Category
-- ### Java
+### Java
 - [java.time 패키지](https://github.com/Woomin-Wang/TIL/blob/main/Java/java.time.md)
