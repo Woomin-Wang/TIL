@@ -264,14 +264,13 @@ public class Instant {
     ...
 }
 ```
-<br>
 
 ```java
 import java.time.Instant;
 import java.time.OffsetDateTime;
 import java.time.ZonedDateTime;
 
-public class test {
+public class InstantMain {
     public static void main(String[] args) {
         Instant now = Instant.now();
         System.out.println("now = " + now);
@@ -303,7 +302,97 @@ public class test {
 - **`ofEpochSecond()`**: 에포크 시간을 기준으로 Instant 생성
 - **`getEpochSecond()`**: 에포크 시간을 기준으로 흐른 초를 반환  
 
+<br>
 
+## Period
+- 두 날짜 사이의 간격을 년, 월, 일 단위로 나타냄
+```java
+public class Period {
+    private final int years;
+    private final int months;
+    private final int days;
+```
+
+```java
+import java.time.LocalDate;
+import java.time.Period;
+
+public class PeriodMain {
+    public static void main(String[] args) {
+        //생성
+        Period period = Period.ofDays(10);
+        System.out.println("period = " + period);
+
+        //계산에 사용
+        LocalDate currentDate = LocalDate.of(2030,1,1);
+        LocalDate plusDate = currentDate.plus(period);
+        System.out.println("현재날짜 = " + currentDate);
+        System.out.println("더한날짜 = " + plusDate);
+
+        //기간 차이
+        LocalDate startDate = LocalDate.of(2023,1,1);
+        LocalDate endDate = LocalDate.of(2023,4,2);
+        Period between = Period.between(startDate, endDate);
+        System.out.println("기간 = " + between.getMonths() + "개월 " + between.getDays() + "일");
+    }
+}
+```
+- `of()`: 특정 기간을 지정해서 **Period**를 생성
+  - `of(년, 월, 일)`
+  - `ofDays()`
+  - `ofMonths()`
+  - `ofYears()` 
+
+- `plus()`: Period 타입의 매개변수
+- `plusDays()`: long 타입의 매개변수
+
+- `Period.between(startDate, endDate)`: 특정 날짜 차이의 값이 Period로 반환
+
+
+<br>
+
+## Duration
+- 두 시간 사이의 간격을 시, 분,초(나노초) 단위로 나타냄
+- 내부에서 초를 기반으로 시, 분, 초를 계산해서 사용
+```java
+public class Duration {
+    private final long seconds;
+    private final int nanos;
+```
+
+```java
+import java.time.Duration;
+import java.time.LocalTime;
+
+public class test {
+    public static void main(String[] args) {
+        Duration duration = Duration.ofMinutes(30);
+        System.out.println("duration = " + duration);
+
+        LocalTime lt = LocalTime.of(1,0);
+        System.out.println("기준 시간 = " + lt);
+
+        //계산에 사용
+        LocalTime plusTime = lt.plus(duration);
+        System.out.println("더한 시간 = " + plusTime);
+
+        //시간 차이
+        LocalTime start = LocalTime.of(9,0);
+        LocalTime end = LocalTime.of(10,0);
+        Duration between = Duration.between(start, end);
+        System.out.println("차이 = " + between.getSeconds() + "초");
+        System.out.println("근무 시간 = " + between.toHours() + "시간" + between.toMinutesPart() + "분");
+        System.out.println("근무 시간 = " + between.toHours() + "시간" + between.toMinutes() + "분");
+    }
+}
+```
+- `of()`: 특정 시간을 지정해서 **Duration** 생성
+    - `of(지정)`
+    - `ofSeconds()`
+    - `ofMinuter()`
+    - `ofHours()`
+- `toMinutes()`: 전체 Duration을 분 단위로 변환
+- `toMinutesPart()`: 분 단위 중에서 **초과된 분**만 추출(125분이면 5분)
 
 
 
