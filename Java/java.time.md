@@ -248,4 +248,69 @@ public class OffsetDateTimeMain {
 
 ## Instant
 
+**Epoch 시간**
+- 1970-01-01 00:00:00 **UTC 기준**으로부터 경과된 초를 나타내는 시간 표현 방식
+- **절대적인** 시간 표현
+
+**Instant 클래스**
+- Epoch 시간을 다루기 위한 자바의 대표 클래스
+- 내부적으로 **나노초 단위까지 표현 가능**
+  
+
+```java
+public class Instant {
+    private final long seconds;
+    private final int nanos;
+    ...
+}
+```
+<br>
+
+```java
+import java.time.Instant;
+import java.time.OffsetDateTime;
+import java.time.ZonedDateTime;
+
+public class test {
+    public static void main(String[] args) {
+        Instant now = Instant.now();
+        System.out.println("now = " + now);
+        
+        ZonedDateTime zdt = ZonedDateTime.now();
+        Instant from1 = Instant.from((zdt));
+        System.out.println("from1 = " + from1);
+
+        OffsetDateTime odt = OffsetDateTime.now();
+        Instant from2 = Instant.from((odt));
+        System.out.println("from2 = " + from2);
+
+        Instant epochStart = Instant.ofEpochSecond(0);
+        System.out.println("epochStart = " + epochStart);
+
+        //계산
+        Instant later = epochStart.plusSeconds(3600);
+        System.out.println("later = " + later);
+
+        //조회
+        long laterEpochSecond = later.getEpochSecond();
+        System.out.println("laterEpochSecond = " + laterEpochSecond);
+    }
+}
+```
+- **`from()`**: 다른 타입의 날짜와 시간을 기준으로 Instant를 생성
+    - Instant는 UTC를 기준으로 하기 때문에 시간대 정보가 필요(LocalDateTime은 사용 불가)  
+
+- **`ofEpochSecond()`**: 에포크 시간을 기준으로 Instant 생성
+- **`getEpochSecond()`**: 에포크 시간을 기준으로 흐른 초를 반환  
+
+
+
+
+
+
+
+
+
+
+
 
