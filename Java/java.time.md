@@ -1,6 +1,6 @@
 **주의 사항**
 - 모든 날짜 클래스는 **불변**
-- 변경이 발생한는 경우 새로운 객체를 생성해서 반환 필수
+- 변경이 발생하는 경우 새로운 객체를 생성해서 반환 필수
 
 ## LocalDate
 - 날짜만 표현할 때 사용
@@ -12,8 +12,8 @@ public class LocalDateMain {
     public static void main(String[] args) {
         LocalDate nowDate = LocalDate.now();
         LocalDate ofDate = LocalDate.of(2025,11,11);
-        System.out.println("오늘 날짜= " + nowDate);
-        System.out.println("지정 날짜= " + ofDate);
+        System.out.println("오늘 날짜 = " + nowDate);
+        System.out.println("지정 날짜 = " + ofDate);
 
         //계산(불변)
         ofDate = ofDate.plusDays(10);
@@ -22,7 +22,7 @@ public class LocalDateMain {
 }
 ```
 - `now()`: 현재 시간을 기준으로 생성
-- `of(...)`: 특장 날짜를 기준으로 생성(년, 월, 일 기입 가능)
+- `of(...)`: 특정 날짜를 기준으로 생성(년, 월, 일 기입 가능)
 - `plusDays()`: 특정 일을 더함(다양한 `plusXxx()` 메서드가 존재)
 
 ## LocalTime
