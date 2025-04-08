@@ -396,10 +396,13 @@ public class test {
 - `toMinutesPart()`: 분 단위 중에서 **초과된 분**만 추출(125분이면 5분)
 
 
+<br>
 
+![image](https://github.com/user-attachments/assets/fe76befb-6ece-42dd-9019-675b640789e4)
 
+### TemporalAccessor 인터페이스
 
-
+### 
 
 
 
