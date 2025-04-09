@@ -401,8 +401,153 @@ public class test {
 ![image](https://github.com/user-attachments/assets/fe76befb-6ece-42dd-9019-675b640789e4)
 
 ### TemporalAccessor 인터페이스
+- 날짜와 시간을 **읽기** 위한 기본 인터페이스
 
-### 
+
+### Temporal 인터페이스
+- `TemporalAccessor`의 하위 인터페이스로, 날짜와 시간을 **조작**(추가, 빼기 등)하기 위한 기능 제공
+
+### TemporalAmount 인터페이스
+- 시간의 간격을 나타내며, 날짜와 시간 객체에 적용하여 조정 가능
+
+<br>
+
+  ![image](https://github.com/user-attachments/assets/71b93789-f848-452a-ae4e-7f41cba99b5f)
+
+## 시간의 단위 - TemporalUnit, ChronoUnit
+- `TemporalUnit` 인터페이스 날짜와 시간을 측정하는 단위를 나타내며, 주로 사용되는 구현체는 java.time.temporal.ChronoUnit 열거형으로 구현
+  
+**ChrnoUnit의 주요 메서드**
+- between(Temporal, Temporal): 두 Temporal 객체 사이의 시간을 현재 ChronoUnit 단위로 측정하여 반환
+- isDateBased(): 현재 ChronoUnit이 날짜 기반 단위인지 여부 반환
+- isTimeBased(): ChronoUnit이 시간 기반 단위인지 여부 반환
+- isSupportedBy(Temporal): 주어진 Temporal 객체가 현재 ChronoUnit 단위 지원 여부 반환
+- getDuration(): 현재 ChronoUnit의 기간을 Duration 객체로 반환
+
+```java
+import java.time.LocalTime;
+import java.time.temporal.ChronoUnit;
+
+public class ChronoUnitMain {
+    public static void main(String[] args) {
+
+        ChronoUnit[] values = ChronoUnit.values();
+        for (ChronoUnit value : values) {
+            System.out.println("value = " + value);
+        }
+
+        System.out.println("ChronoUnit.HOURS = " + ChronoUnit.HOURS);
+        System.out.println("HOURS.duration = " + ChronoUnit.HOURS.getDuration().getSeconds());
+
+        System.out.println("ChronoUnit.DAYS = " + ChronoUnit.DAYS);
+        System.out.println("DAYS.duration = " + ChronoUnit.DAYS.getDuration().getSeconds());
+
+        //차이 구하기
+        LocalTime lt1 = LocalTime.of(1,10,0);
+        LocalTime lt2 = LocalTime.of(1, 20, 0);
+
+        long secondsBetween = ChronoUnit.SECONDS.between(lt1, lt2);
+        System.out.println("secondsBetween = " + secondsBetween);
+
+        long minutesBetween = ChronoUnit.MINUTES.between(lt1, lt2);
+        System.out.println("minutesBetween = " + minutesBetween);
+    }
+}
+```
+
+
+## 시간 필드 - ChronoField
+- ChronoField는 날짜 및 시간을 나타내는 데 사용되는 열거형이다. 이 열거형은 다양한 필드를 통해 **날짜와 시간의 특정 부분**을 나타냄
+- TemporalField 인터페이스는 날짜와 시간을 나타내는데 사용. 주로 사용되는 구현체는 java.time.temporal.ChronoField 열거형으로 구현
+
+### 주요 메서드
+- getBaseUnit():
+    - 반환 타입: TemporalUnit
+    - 설명: 필드의 기본 단위를 반환
+- getRangeUnit():
+    - 반환 타입: TemporalUnit
+    - 설명: 필드의 범위 단위를 반환 
+- isDateBased():
+  - 반환 타입: boolean
+  - 설명: 필드가 주로 날짜를 기반으로 하는지 여부
+- isTimeBased():
+    - 반환 타입: boolean
+    - 설명: 필드가 주로 시간을 기반으로 하는지 여부 
+- range():
+    - 반환 타입: ValueRange
+    - 설명: 필드가 가질 수 있는 값의 유효 범위를 ValueRange 객체로 반환 
+
+```java
+import java.time.temporal.ChronoField;
+
+public class ChronoFieldMain {
+    public static void main(String[] args) {
+
+        for (ChronoField value : ChronoField.values()) {
+            System.out.println("value.range() = " + value.range());
+        }
+
+        System.out.println("ChronoField.MONTH_OF_YEAR.range() = " + ChronoField.MONTH_OF_YEAR.range());
+        System.out.println("ChronoField.DAY_OF_MONTH.range() = " + ChronoField.DAY_OF_MONTH.range());
+    }
+}
+```
+
+## 날짜와 시간 조회하기
+```java
+import java.time.LocalDateTime;
+import java.time.temporal.ChronoField;
+
+public class GetTimeMain {
+
+    public static void main(String[] args) {
+        LocalDateTime dt = LocalDateTime.of(2030,1,1,13,30,59);
+        System.out.println("YEAR = " + dt.get(ChronoField.MONTH_OF_YEAR));
+        System.out.println("MONTH_OF_YEAR = " + dt.get(ChronoField.MONTH_OF_YEAR));
+        System.out.println("HOUR_OF_DAY = " + dt.get(ChronoField.HOUR_OF_DAY));
+        System.out.println("MINUTE_OF_HOUR = " + dt.get(ChronoField.MINUTE_OF_HOUR));
+        System.out.println("SECOND_OF_MINUTE = " + dt.get(ChronoField.SECOND_OF_MINUTE));
+
+        System.out.println("편의 메서드 제공");
+        System.out.println("dt.getYear() = " + dt.getYear());
+        System.out.println("dt.getMonth() = " + dt.getMonth());
+        System.out.println("dt.getMonthValue() = " + dt.getMonthValue());
+        System.out.println("dt.getDayOfMonth() = " + dt.getDayOfMonth());
+        System.out.println("dt.getMinute() = " + dt.getMinute());
+        System.out.println("dt.getSecond() = " + dt.getSecond());
+        System.out.println("dt = " + dt);
+
+        System.out.println("편의 메서드에 존재 X");
+        System.out.println("ChronoField.MINUTE_OF_DAY = " + dt.get(ChronoField.MINUTE_OF_DAY));
+        System.out.println("ChronoField.SECOND_OF_DAY = " + ChronoField.SECOND_OF_DAY);
+    }
+}
+```
+
+```java
+import java.time.LocalDateTime;
+import java.time.Period;
+import java.time.temporal.ChronoUnit;
+
+public class ChangeTimePlusMain {
+    public static void main(String[] args) {
+        LocalDateTime dt = LocalDateTime.of(2018,1,1,13,30,59);
+        System.out.println("dt = " + dt);
+
+        LocalDateTime plusDt1 = dt.plus(10, ChronoUnit.YEARS);
+        System.out.println("plusDt1 = " + plusDt1);
+
+        LocalDateTime plusDt2 = dt.plusYears(10);
+        System.out.println("plusDt2 = " + plusDt2);
+
+        Period period = Period.ofYears(10);
+        LocalDateTime plusDt3 = dt.plus(period);
+        System.out.println("plusDt3 = " + plusDt3);
+    }
+}
+```
+
+
 
 
 
