@@ -15,8 +15,8 @@
 <br>
 
 ## Operating Systems
-- ### Operating System Concepts 10th
-  - [Chap1.Introduction]()
+### [Operating System Concepts 10th]
+  - [Chap1. Introduction]()
 
 
 <br>
