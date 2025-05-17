@@ -4,14 +4,16 @@
 
 <br>
 
-## Operating Systems
-### [Operating System Concepts 10th]
-  - [Chap1. Introduction]()
+## Data Structures
+  - [스택, 큐](https://github.com/Woomin-Wang/TIL/blob/main/Data%20Structure/stack-queue.md)
+
 
 <br>
 
-## Data Structures
-  - [스택, 큐](https://github.com/Woomin-Wang/TIL/blob/main/Data%20Structure/stack-queue.md)
+## Operating Systems
+- [프로세스, 스레드]()
+
+
 
 <br>
 
@@ -22,7 +24,7 @@
 
 <br>
 
-## Etc
+## Network
 - [Web Service Architecture](https://velog.io/@woomin-wang/Web-Service-Architecture-bkaejdtp)
 
 <br>
