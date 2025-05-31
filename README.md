@@ -1,13 +1,6 @@
 # TIL
 - 공부한 것들을 기록합니다.
 
-
-<br>
-
-## 회고록
-- [ep0. 휴학 옳은 선택일까?](https://velog.io/@woomin-wang/series/%ED%9A%8C%EA%B3%A0%EB%A1%9D)
-
-
 <br>
 
 ## Data Structures
