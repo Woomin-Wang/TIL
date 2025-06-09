@@ -29,7 +29,7 @@
 <br>
 
 - ### 모든 개발자를 위한 HTTP 웹 지식
-  - [인터넷 네트워크]()
+  - [인터넷 네트워크](https://familiar-dragon-4ed.notion.site/209bf88cd0f5804ab888c6df4fa4e765?source=copy_link)
   - [URI와 웹브라우저 요청 흐름]()
   - [HTTP 기본]()
   - [HTTP 메서드]()
