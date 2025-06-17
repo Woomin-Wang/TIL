@@ -14,6 +14,7 @@
 - [Multi Process, Multi Thread](https://github.com/Woomin-Wang/TIL/blob/main/OS/multiprocess-multithread.md)
 - [Context Switching](https://github.com/Woomin-Wang/TIL/blob/main/OS/context-switching.md)
 - [Sync, Async, Blocking, Nonblocking](https://github.com/Woomin-Wang/TIL/blob/main/OS/sync-async-blocking-nonblocking.md)
+- [Process synchronization](https://github.com/Woomin-Wang/TIL/blob/main/OS/process-synchronization.md)
 
 <br>
 
