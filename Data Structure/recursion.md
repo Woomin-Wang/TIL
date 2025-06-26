@@ -26,6 +26,9 @@
 
 팩토리얼이 재귀 함수의 대표적인 예시이다.
 
+<br>
+
+**팩토리얼 코드 예제**
 ```java
 public static int fatorial(int n) {
     if(n == 0) { // Base Case (기본 케이스)
@@ -74,6 +77,9 @@ public static int fatorial(int n) {
 
 피보나치 수열은 `첫째 항`과 `둘째 항`이 `1`이며, 그 뒤의 모든 항은 바로 앞 두항의 합으로 이어지는 수열이다.
 
+<br>
+
+**피보나치 코드 예제**
 ```java
 public static int fibonacci(int n) {
     // 1. Base Case (기본 케이스)
@@ -125,6 +131,33 @@ public static int fibonacci(int n) {
 
 ![image](https://github.com/user-attachments/assets/a525a365-b2e1-409d-9c04-63790b0c0267)
 
+**하노이 코드 예제**
+```java
+// 옮길 원반의 개수(count), 시작 기둥(from), 보조 기둥(temp), 목표 기둥(to)
+public static void hanoi(int count, char from, char to, char temp) {
+    // 1. Base Case: 원반이 없으면(count=0) 아무것도 하지 않고 함수를 끝낸다.
+    if (count == 0) {
+        return;
+    }
+
+    // 1. n-1개의 원반을 보조 기둥으로 옮긴다.
+    hanoi(count - 1, from, temp, to);
+
+    // 2. 가장 큰 원반을 1개의 목표 기둥으로 옮긴다.
+    System.out.println("원반 " + count + "를 " + from + "에서 " + to + "으로 이동");
+
+    // 3. n-1개의 원반을 보조 기둥에서 목표 기둥으로 옮긴다.
+    hanoi(count - 1, temp, to, from);
+}
+```
+
+<br>
+
+**1단계:** `n-1`개의 원반을 보조 기둥으로 옮긴다.
+
+**2단계:** 가장 큰 원반을 목표 기둥으로 옮긴다.
+
+**3단계:** `n-1`개의 원반을 보조 기둥에서 목표 기둥으로 옮긴다.
 
 
 <br>
