@@ -6,7 +6,7 @@
 ## Data Structures
   - [Recursion](https://github.com/Woomin-Wang/TIL/blob/main/Data%20Structure/recursion.md)
   - [Array, List](https://familiar-dragon-4ed.notion.site/Array-List-21fbf88cd0f58006a1d2e0024b795b97?source=copy_link)
-  - [Stack, Queue](https://github.com/Woomin-Wang/TIL/blob/main/Data%20Structure/stack-queue.md)
+  - [Stack, Queue, Deque]()
 
 
 <br>
@@ -45,4 +45,4 @@
 <br>
 
 - ### IT 엔지니어를 위한 네트워크 입문
-  - []() 
+  - [Chap01. 네트워크 시작하기](https://familiar-dragon-4ed.notion.site/1-21fbf88cd0f5801a833dc65cdbc02a34?source=copy_link) 
