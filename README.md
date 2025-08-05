@@ -30,7 +30,7 @@
 
 ## Network
 - [Web Service Architecture](https://velog.io/@woomin-wang/Web-Service-Architecture-bkaejdtp)
-- [Layerd Architecture](https://github.com/Woomin-Wang/TIL/blob/main/Network/layered-architecutre.md)
+- [OSI-7 Layerd Architecture](https://github.com/Woomin-Wang/TIL/blob/main/Network/layered-architecutre.md)
 
 <br>
 
@@ -52,3 +52,5 @@
   - [Chap03. 네트워크 통신하기](https://familiar-dragon-4ed.notion.site/3-226bf88cd0f580d9b267d32dff4a7c09?source=copy_link)
   - [Chap04. 스위치: 2계층 장비](https://familiar-dragon-4ed.notion.site/4-2-228bf88cd0f580189a37cef52767ee27?source=copy_link)
   - [Chap05. 라우터: 3계층 장비](https://familiar-dragon-4ed.notion.site/5-L3-3-228bf88cd0f5804ea072e7823b66d35f?source=copy_link)
+  - [Chap06. 로드밸런서/방화벽: 4계층 장비]()
+  - [Chao07. 통신을 도와주는 네트워크 주요 기술]()
