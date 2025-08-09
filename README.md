@@ -53,4 +53,4 @@
   - [Chap04. 스위치: 2계층 장비](https://familiar-dragon-4ed.notion.site/4-2-228bf88cd0f580189a37cef52767ee27?source=copy_link)
   - [Chap05. 라우터: 3계층 장비](https://familiar-dragon-4ed.notion.site/5-L3-3-228bf88cd0f5804ea072e7823b66d35f?source=copy_link)
   - [Chap06. 로드밸런서/방화벽: 4계층 장비](https://familiar-dragon-4ed.notion.site/Chap06-4-246bf88cd0f580969b7ae80b07f2df42?source=copy_link)
-  - [Chao07. 통신을 도와주는 네트워크 주요 기술]()
+  - [Chao07. 통신을 도와주는 네트워크 주요 기술](https://familiar-dragon-4ed.notion.site/Chap07-246bf88cd0f5803f8a0cd68a8b31534d?source=copy_link)
