@@ -31,6 +31,7 @@
 ## Network
 - [Web Service Architecture](https://velog.io/@woomin-wang/Web-Service-Architecture-bkaejdtp)
 - [OSI-7 Layerd Architecture](https://github.com/Woomin-Wang/TIL/blob/main/Network/layered-architecutre.md)
+- [AWS ALB Round Robin](https://familiar-dragon-4ed.notion.site/AWS-254bf88cd0f58070a470c474de4cf266?source=copy_link)
 
 <br>
 
