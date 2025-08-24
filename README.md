@@ -26,16 +26,21 @@
 - [Snapshot, Commit, Branch](https://velog.io/@woomin-wang/Git-Git-%EC%A0%80%EC%9E%A5%EC%86%8C-%EA%B5%AC%EC%A1%B0%EC%99%80-%EB%82%B4%EB%B6%80-%EB%8F%99%EC%9E%91)
 - [Merge, Rebase](https://velog.io/@woomin-wang/Git-merge-rebase)
 
+
+<br>
+
+## Architecture 
+- [Web Service Architecture](https://velog.io/@woomin-wang/Web-Service-Architecture-bkaejdtp)
+
+
 <br>
 
 ## Network
-- [Web Service Architecture](https://velog.io/@woomin-wang/Web-Service-Architecture-bkaejdtp)
-- [OSI-7 Layerd Architecture](https://github.com/Woomin-Wang/TIL/blob/main/Network/layered-architecutre.md)
 - [AWS ALB Round Robin](https://familiar-dragon-4ed.notion.site/AWS-254bf88cd0f58070a470c474de4cf266?source=copy_link)
 
 <br>
 
-- ### 모든 개발자를 위한 HTTP 웹 지식
+### [모든 개발자를 위한 HTTP 웹 지식]
   - [인터넷 네트워크](https://familiar-dragon-4ed.notion.site/209bf88cd0f5804ab888c6df4fa4e765?source=copy_link)
   - [URI와 웹브라우저 요청 흐름]()
   - [HTTP 기본]()
@@ -47,7 +52,7 @@
 
 <br>
 
-- ### IT 엔지니어를 위한 네트워크 입문
+### [IT 엔지니어를 위한 네트워크 입문]
   - [Chap01. 네트워크 시작하기](https://familiar-dragon-4ed.notion.site/1-21fbf88cd0f5801a833dc65cdbc02a34?source=copy_link)
   - [Chap02. 네트워크 연결과 구성 요소](https://familiar-dragon-4ed.notion.site/2-222bf88cd0f58027b546d5d52997b542?source=copy_link)
   - [Chap03. 네트워크 통신하기](https://familiar-dragon-4ed.notion.site/3-226bf88cd0f580d9b267d32dff4a7c09?source=copy_link)
