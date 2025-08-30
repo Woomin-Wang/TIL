@@ -69,7 +69,7 @@
   - [URI와 웹브라우저 요청 흐름](https://familiar-dragon-4ed.notion.site/URI-209bf88cd0f580f38147d97c630d8ffd?source=copy_link)
   - [HTTP 기본](https://familiar-dragon-4ed.notion.site/HTTP-209bf88cd0f58034934fe4f36edbd4f8?source=copy_link)
   - [HTTP 메서드](https://familiar-dragon-4ed.notion.site/HTTP-209bf88cd0f580959bcfdfcea3bc5f77?source=copy_link)
-  - [HTTP 메서드 활용]()
+  - [HTTP 메서드 활용](https://familiar-dragon-4ed.notion.site/HTTP-209bf88cd0f5807d970af757cd2c4837?source=copy_link)
   - [HTTP 상태 코드]()
   - [HTTP 헤더1 - 일반 헤더]()
   - [HTTP 헤더2 - 캐시와 조건부 요청]()
