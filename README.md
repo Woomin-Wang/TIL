@@ -60,8 +60,8 @@
 <br>
 
 ## Network
-- [AWS ALB Round Robin](https://familiar-dragon-4ed.notion.site/AWS-254bf88cd0f58070a470c474de4cf266?source=copy_link)
-
+- [AWS - ALB Round Robin](https://familiar-dragon-4ed.notion.site/AWS-254bf88cd0f58070a470c474de4cf266?source=copy_link)
+- [AWS - Server Redundancy (Active-Active)](https://familiar-dragon-4ed.notion.site/AWS-262bf88cd0f5801ea261e8128c5f3b36?source=copy_link)
 <br>
 
 ### [모든 개발자를 위한 HTTP 웹 지식]
