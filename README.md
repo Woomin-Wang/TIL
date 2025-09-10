@@ -87,4 +87,7 @@
   - [Chap08. 서버 네트워크 기본](https://familiar-dragon-4ed.notion.site/Chap08-251bf88cd0f580d2a35fd2c8050a4c83?source=copy_link)
   - [Chap11. 이중화 기술](https://familiar-dragon-4ed.notion.site/Chap11-25abf88cd0f5807a964ddc508b36fe0d?source=copy_link)
   - [Chap12. 로드 밸런서](https://familiar-dragon-4ed.notion.site/Chap12-269bf88cd0f5803da504d27f59a5bfbc?source=copy_link)
-  - 
+
+
+
+    
