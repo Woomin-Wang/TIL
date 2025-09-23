@@ -34,14 +34,6 @@
 <br>
 <br>
 
-## Design Pattern 
-- 
-
-<br>
-<br>
-<br>
-
-
 ## Architecture 
 - [Web Service Architecture](https://velog.io/@woomin-wang/Web-Service-Architecture-bkaejdtp)
 
