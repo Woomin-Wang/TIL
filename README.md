@@ -34,9 +34,10 @@
 <br>
 <br>
 
-## Architecture 
-- [Web Service Architecture](https://velog.io/@woomin-wang/Web-Service-Architecture-bkaejdtp)
-
+## Design Pattern 
+- [Strategy](https://familiar-dragon-4ed.notion.site/Strategy-27ebf88cd0f5806ea853e8390d4f9f8d)
+- [Singleton](https://familiar-dragon-4ed.notion.site/Singleton-272bf88cd0f580bead3affdcf583cbac?source=copy_link)
+  
 <br>
 <br>
 <br>
