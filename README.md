@@ -35,11 +35,13 @@
 <br>
 
 ## Design Pattern 
-- [Strategy](https://familiar-dragon-4ed.notion.site/Strategy-27ebf88cd0f5806ea853e8390d4f9f8d)
-- [Singleton](https://familiar-dragon-4ed.notion.site/Singleton-272bf88cd0f580bead3affdcf583cbac?source=copy_link)
-- [Factory Method](https://familiar-dragon-4ed.notion.site/Factory-Method-28fbf88cd0f580d1a070dabdf691c36e?source=copy_link)
-- [Abstract Factory](https://familiar-dragon-4ed.notion.site/Abstract-Factory-293bf88cd0f5801c98cfc7e0f25b0eca?source=copy_link)
-  
+- [전략 (Strategy)](https://familiar-dragon-4ed.notion.site/Strategy-27ebf88cd0f5806ea853e8390d4f9f8d)
+- [싱글톤 (Singleton)](https://familiar-dragon-4ed.notion.site/Singleton-272bf88cd0f580bead3affdcf583cbac?source=copy_link)
+- [팩토리 메서드 (Factory Method)](https://familiar-dragon-4ed.notion.site/Factory-Method-28fbf88cd0f580d1a070dabdf691c36e?source=copy_link)
+- [추상 팩토리 (Abstract Factory)](https://familiar-dragon-4ed.notion.site/Abstract-Factory-293bf88cd0f5801c98cfc7e0f25b0eca?source=copy_link)
+- [데코레이터 (Decorator)](https://familiar-dragon-4ed.notion.site/Decorator-29dbf88cd0f580978300e6e5de6c2751?source=copy_link)
+
+   
 <br>
 <br>
 <br>
@@ -58,7 +60,9 @@
 - [Chap05. 격리 프레임워크](https://familiar-dragon-4ed.notion.site/Chap05-23dbf88cd0f580bfb602c2eb26b84871?source=copy_link)
 - [Chap06. 비동기 코드 단위 테스트](https://familiar-dragon-4ed.notion.site/Chap06-255bf88cd0f5807cab6bd2c48bac5f8f?source=copy_link)
 - [Chap07. 신뢰할 수 있는 테스트](https://familiar-dragon-4ed.notion.site/Chap07-27dbf88cd0f580a6b8b4df0adc11b64c?source=copy_link)
-- [Chap08. 가독성](https://familiar-dragon-4ed.notion.site/Chap09-298bf88cd0f58098b340da35fd4f8f97?source=copy_link)
+- [Chap08. 유지보수성](https://familiar-dragon-4ed.notion.site/Chap08-28dbf88cd0f5807db2d7d8145c8339f1?source=copy_link)
+- [Chap09. 가독성](https://familiar-dragon-4ed.notion.site/Chap09-298bf88cd0f58098b340da35fd4f8f97?source=copy_link)
+- [Chap10. 더 나은 테스트 전략 수집](https://familiar-dragon-4ed.notion.site/Chap10-29dbf88cd0f580de9e55e1a016022678?source=copy_link)
 
 <br>
 <br>
