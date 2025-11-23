@@ -40,7 +40,7 @@
 - [팩토리 메서드 (Factory Method)](https://familiar-dragon-4ed.notion.site/Factory-Method-28fbf88cd0f580d1a070dabdf691c36e?source=copy_link)
 - [추상 팩토리 (Abstract Factory)](https://familiar-dragon-4ed.notion.site/Abstract-Factory-293bf88cd0f5801c98cfc7e0f25b0eca?source=copy_link)
 - [데코레이터 (Decorator)](https://familiar-dragon-4ed.notion.site/Decorator-29dbf88cd0f580978300e6e5de6c2751?source=copy_link)
-
+- [옵저버 (Observer)](https://familiar-dragon-4ed.notion.site/Observer-293bf88cd0f58025b56bc4de06b4ecea?source=copy_link)
    
 <br>
 <br>
