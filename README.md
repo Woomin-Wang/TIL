@@ -1,40 +1,36 @@
-# TIL
+# 📝 TIL
+
+> 더 나은 개발자가 되기 위해, 매일의 배움과 실수를 남깁니다.
+
+<br>
+
+## 📚 Data Structures
+  - [재귀(Recursion)](https://github.com/Woomin-Wang/TIL/blob/main/Data%20Structure/recursion.md)
+  - [배열(Array), 리스트(List)](https://familiar-dragon-4ed.notion.site/Array-List-21fbf88cd0f58006a1d2e0024b795b97?source=copy_link)
+  - [스택(Stack), 큐(Queue), 덱(Deque)](https://familiar-dragon-4ed.notion.site/Stack-Queue-Deque-21fbf88cd0f58054a755fc6ae6928493?source=copy_link)
+  - [해쉬(Hash)](https://familiar-dragon-4ed.notion.site/Hash-21fbf88cd0f5804881f2fddf83c88494?source=copy_link)
 
 <br>
 <br>
-<br>
 
-## Data Structures
-  - [Recursion](https://github.com/Woomin-Wang/TIL/blob/main/Data%20Structure/recursion.md)
-  - [Array, List](https://familiar-dragon-4ed.notion.site/Array-List-21fbf88cd0f58006a1d2e0024b795b97?source=copy_link)
-  - [Stack, Queue, Deque](https://familiar-dragon-4ed.notion.site/Stack-Queue-Deque-21fbf88cd0f58054a755fc6ae6928493?source=copy_link)
-  - [Hash](https://familiar-dragon-4ed.notion.site/Hash-21fbf88cd0f5804881f2fddf83c88494?source=copy_link)
-
-<br>
-<br>
-<br>
-
-## Operating Systems
-- [Process, Thread](https://github.com/Woomin-Wang/TIL/blob/main/OS/process-thread.md)
-- [Multi Process, Multi Thread](https://github.com/Woomin-Wang/TIL/blob/main/OS/multiprocess-multithread.md)
-- [Context Switching](https://github.com/Woomin-Wang/TIL/blob/main/OS/context-switching.md)
-- [Sync, Async, Blocking, Nonblocking](https://github.com/Woomin-Wang/TIL/blob/main/OS/sync-async-blocking-nonblocking.md)
-- [Process synchronization](https://github.com/Woomin-Wang/TIL/blob/main/OS/process-synchronization.md)
-- [Kernel, System Call](https://github.com/Woomin-Wang/TIL/blob/main/OS/system-call.md)
+## ⚙️ Operating Systems
+- [프로세스(Process), 스레드(Thread)](https://github.com/Woomin-Wang/TIL/blob/main/OS/process-thread.md)
+- [멀티 프로세스(Multi Process), 멀티 스레드(Multi Thread)](https://github.com/Woomin-Wang/TIL/blob/main/OS/multiprocess-multithread.md)
+- [컨텍스트 스위칭(Context Switching)](https://github.com/Woomin-Wang/TIL/blob/main/OS/context-switching.md)
+- [동기(Sync), 비동기(Async), 블로킹(Blocking), 논블로킹(Nonblocking)](https://github.com/Woomin-Wang/TIL/blob/main/OS/sync-async-blocking-nonblocking.md)
+- [프로세스 동기화(Process synchronization)](https://github.com/Woomin-Wang/TIL/blob/main/OS/process-synchronization.md)
+- [커널(Kernel), 시스템 콜(System Call)](https://github.com/Woomin-Wang/TIL/blob/main/OS/system-call.md)
 
 <br>
 <br>
-<br>
 
-## Git
-- [Snapshot, Commit, Branch](https://velog.io/@woomin-wang/Git-Git-%EC%A0%80%EC%9E%A5%EC%86%8C-%EA%B5%AC%EC%A1%B0%EC%99%80-%EB%82%B4%EB%B6%80-%EB%8F%99%EC%9E%91)
-- [Merge, Rebase](https://velog.io/@woomin-wang/Git-merge-rebase)
+## 🧩 OOP & Software Design
+- [객체지향의 사실과 오해]()
 
 <br>
-<br>
-<br>
 
-## Design Pattern 
+### [헤드퍼스트 디자인 패턴]
+
 - [전략 (Strategy)](https://familiar-dragon-4ed.notion.site/Strategy-27ebf88cd0f5806ea853e8390d4f9f8d)
 - [싱글톤 (Singleton)](https://familiar-dragon-4ed.notion.site/Singleton-272bf88cd0f580bead3affdcf583cbac?source=copy_link)
 - [팩토리 메서드 (Factory Method)](https://familiar-dragon-4ed.notion.site/Factory-Method-28fbf88cd0f580d1a070dabdf691c36e?source=copy_link)
@@ -44,9 +40,8 @@
    
 <br>
 <br>
-<br>
 
-## Test
+## 🧪 Test
 - [JUnit을 활용한 좋은 단위 테스트, 어떻게 할까?](https://woomin-wang.tistory.com/entry/JUnit%EC%9D%84-%ED%99%9C%EC%9A%A9%ED%95%9C-%EC%A2%8B%EC%9D%80-%EB%8B%A8%EC%9C%84-%ED%85%8C%EC%8A%A4%ED%8A%B8-%EC%96%B4%EB%96%BB%EA%B2%8C-%ED%95%A0%EA%B9%8C)
 - [Spring Boot TDD - 입문부터 실전까지 정확하게](https://github.com/Woomin-Wang/tdd-tutorial)
 
@@ -67,9 +62,8 @@
 
 <br>
 <br>
-<br>
 
-## Network
+## 🌐 Network
 - [AWS - ALB Round Robin](https://familiar-dragon-4ed.notion.site/AWS-254bf88cd0f58070a470c474de4cf266?source=copy_link)
 - [AWS - Server Redundancy (Active-Active)](https://familiar-dragon-4ed.notion.site/AWS-262bf88cd0f5801ea261e8128c5f3b36?source=copy_link)
 <br>
@@ -100,5 +94,7 @@
   - [Chap13. 네트워크 디자인](https://familiar-dragon-4ed.notion.site/Chap13-25abf88cd0f58072bf39d73ede5d7b01?source=copy_link)
 
 <br>
+<br>
+
 
     
