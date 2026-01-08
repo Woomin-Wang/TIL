@@ -54,7 +54,7 @@
 
 ### 프로세스 상태 전이
 
-![image](https://github.com/user-attachments/assets/c41d07d6-5516-4b37-b3fe-1de86889c928)
+<img width="900" height="437" alt="image" src="https://github.com/user-attachments/assets/aea11ca6-cdad-4975-95f6-2871cfa5ccbf" />
 
 - **디스패치(Dispatch)**
   - 준비 상태에 있는 여러 프로세스 중에서 실행할 프로세스를 **스케줄러**가 선정하여 CPU를 할당하는 과정 
