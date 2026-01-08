@@ -19,7 +19,7 @@
 
 ### 1.1 커널이란?
 
-![image](https://github.com/user-attachments/assets/35c1d922-c956-494a-85c7-f8af5ed8278c)
+<img src="https://github.com/user-attachments/assets/35c1d922-c956-494a-85c7-f8af5ed8278c" width="500" height="500" />
 
 **커널은 운영체제의 핵심 부분**이자, 컴퓨터가 켜진 순간부터 꺼질 때까지 메모리에 항상 상주하는 프로그램이다.  
 
