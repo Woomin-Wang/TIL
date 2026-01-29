@@ -58,6 +58,7 @@
 - [동기(Sync), 비동기(Async), 블로킹(Blocking), 논블로킹(Nonblocking)](https://github.com/Woomin-Wang/TIL/blob/main/OS/sync-async-blocking-nonblocking.md)
 - [프로세스 동기화(Process synchronization)](https://github.com/Woomin-Wang/TIL/blob/main/OS/process-synchronization.md)
 - [커널(Kernel), 시스템 콜(System Call)](https://github.com/Woomin-Wang/TIL/blob/main/OS/system-call.md)
+- [교착 상태(Deadlock)](https://familiar-dragon-4ed.notion.site/2f7bf88cd0f580f4bd99cf6c7c4659e3?source=copy_link)
 
 <br>
 <br>
