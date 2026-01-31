@@ -6,6 +6,9 @@
 
 ## 회고록
 
+- [Ep0. 휴학 옳은 선택일까?](https://velog.io/@woomin-wang/%ED%9A%8C%EA%B3%A0%EB%A1%9D-ep0.-%ED%9C%B4%ED%95%99-%EC%98%B3%EC%9D%80-%EC%84%A0%ED%83%9D%EC%9D%BC%EA%B9%8C)
+- [Ep01. 랩실 1년 차, 개발과 친해졌을까](https://woomin-wang.tistory.com/entry/Ep01-%EB%9E%A9%EC%8B%A4%EC%97%90-%EB%93%A4%EC%96%B4%EC%98%A8-%EC%A7%80-1%EB%85%84-%EB%82%98%EB%8A%94-%EA%B0%9C%EB%B0%9C%EA%B3%BC-%EC%96%BC%EB%A7%88%EB%82%98-%EC%B9%9C%ED%95%B4%EC%A1%8C%EC%9D%84%EA%B9%8C)
+  
 <br>
 
 ## Java
