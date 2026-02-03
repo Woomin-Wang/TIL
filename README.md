@@ -142,7 +142,7 @@
 <br>
 
 ## JWT
-
+- [Header, Payload, Signature](https://familiar-dragon-4ed.notion.site/JWT-Header-Payload-Signature-2f2bf88cd0f580c39791f0dce4e1f933?source=copy_link)
 
 
 <br>
