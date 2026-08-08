@@ -3,13 +3,89 @@
 > 더 나은 개발자가 되기 위해, 매일의 배움과 실수를 남깁니다.
 
 <br>
-<br>
 
 ## 회고록
 
 - [Ep0. 휴학 옳은 선택일까?](https://velog.io/@woomin-wang/%ED%9A%8C%EA%B3%A0%EB%A1%9D-ep0.-%ED%9C%B4%ED%95%99-%EC%98%B3%EC%9D%80-%EC%84%A0%ED%83%9D%EC%9D%BC%EA%B9%8C)
 - [Ep01. 랩실 1년 차, 개발과 친해졌을까](https://woomin-wang.tistory.com/entry/Ep01-%EB%9E%A9%EC%8B%A4%EC%97%90-%EB%93%A4%EC%96%B4%EC%98%A8-%EC%A7%80-1%EB%85%84-%EB%82%98%EB%8A%94-%EA%B0%9C%EB%B0%9C%EA%B3%BC-%EC%96%BC%EB%A7%88%EB%82%98-%EC%B9%9C%ED%95%B4%EC%A1%8C%EC%9D%84%EA%B9%8C)
   
+<br>
+
+## Java
+
+- [Interpreter, Compiler](https://velog.io/@woomin-wang/JAVA-%EC%BB%B4%ED%8C%8C%EC%9D%BC%EB%9F%AC%EC%99%80-%EC%9D%B8%ED%84%B0%ED%94%84%EB%A6%AC%ED%84%B0%EC%9D%98-%EC%B0%A8%EC%9D%B4)
+- [JDK, JRE, JVM](https://velog.io/@woomin-wang/JAVA-JVM%EC%9D%80-%EB%AC%B4%EC%97%87%EC%9D%BC%EA%B9%8C)
+- [JVM Runtime Date Area](https://velog.io/@woomin-wang/JAVA-JVM-Runtime-Data-Area)
+- [Reference Type, Instance Type](https://velog.io/@woomin-wang/JAVA-%EC%9E%90%EB%B0%94-%EB%8B%A4%ED%98%95%EC%84%B1-%EC%B0%B8%EC%A1%B0-%ED%83%80%EC%9E%85%EA%B3%BC-%EC%9D%B8%EC%8A%A4%ED%84%B4%EC%8A%A4-%ED%83%80%EC%9E%85%EC%9D%98-%EA%B4%80%EA%B3%84)
+- [Method Overriding](https://velog.io/@woomin-wang/Java-%EC%9E%90%EB%B0%94%EC%97%90%EC%84%9C-%EC%98%A4%EB%B2%84%EB%9D%BC%EC%9D%B4%EB%94%A9-%EB%A9%94%EC%84%9C%EB%93%9C%EA%B0%80-%EC%8B%A4%ED%96%89%EB%90%98%EB%8A%94-%EC%9B%90%EB%A6%AC) 
+- [Abstract Class, Interface](https://velog.io/@woomin-wang/JAVA-%EC%B6%94%EC%83%81%ED%81%B4%EB%9E%98%EC%8A%A4%EC%99%80-%EC%9D%B8%ED%84%B0%ED%8E%98%EC%9D%B4%EC%8A%A4-%EB%AC%B4%EC%97%87%EC%9D%84-%EC%84%A0%ED%83%9D%ED%95%A0%EA%B9%8C)
+- [Anonymous Class](https://velog.io/@woomin-wang/JAVA-%EC%9D%B8%ED%84%B0%ED%8E%98%EC%9D%B4%EC%8A%A4%EC%97%90-%EC%84%A0%EC%96%B8%ED%95%A0-%EC%88%98-%EC%9E%88%EB%8A%94-%EB%A9%94%EC%84%9C%EB%93%9C)
+- [JAR, WAR](https://velog.io/@woomin-wang/Java-%EC%9B%B9-%EC%95%A0%ED%94%8C%EB%A6%AC%EC%BC%80%EC%9D%B4%EC%85%98-%EB%B0%B0%ED%8F%AC-%EB%B0%A9%EC%8B%9D-JAR%EC%99%80-WAR%EC%9D%98-%EC%B0%A8%EC%9D%B4%EC%A0%90%EA%B3%BC-Spring-Boot)
+
+<br>
+
+- ### [Modern Java in Action]
+    - [Chap1. 자바 8,9,10,11: 무슨 일이 일어나고 있는가?](https://familiar-dragon-4ed.notion.site/Chap1-8-9-10-11-362bf88cd0f580b0a226ca57f430d94f?source=copy_link)
+    - [Chap2. 동작 파라미터화 코드 전달하기](https://familiar-dragon-4ed.notion.site/Chap2-363bf88cd0f5801fbfcef9969a5ecfbb?source=copy_link)
+ 
+<br>
+
+  - ### **[This is Java]**
+      - [Chap1. 자바 시작하기](https://familiar-dragon-4ed.notion.site/1a0bf88cd0f5802c8728ea365cdaeb59?pvs=4)
+      - [Chap2. 변수와 타입](https://familiar-dragon-4ed.notion.site/1a3bf88cd0f580e68886feb2739d5961?pvs=4)
+      - [Chap3. 연산자](https://familiar-dragon-4ed.notion.site/1a3bf88cd0f580898779e39f3312db62?pvs=4)
+      - [Chap4. 조건문과 반복문](https://familiar-dragon-4ed.notion.site/1a3bf88cd0f58044ac6de2159d256507?pvs=4)
+      - [Chap5. 참조 타입](https://familiar-dragon-4ed.notion.site/1a3bf88cd0f5806eb251f3afe069f95e?pvs=4)
+      - [Chap6. 클래스](https://familiar-dragon-4ed.notion.site/1a5bf88cd0f5801bb174da6db6e88c56?pvs=4)
+      - [Chap7. 상속](https://familiar-dragon-4ed.notion.site/1abbf88cd0f58015939ceb5b7e5c05a7?pvs=4)
+      - [Chap8. 인터페이스](https://familiar-dragon-4ed.notion.site/1abbf88cd0f58015939ceb5b7e5c05a7?pvs=4)
+      - [Chap9. 중첩 선언과 익명 객체](https://familiar-dragon-4ed.notion.site/1d0bf88cd0f580e9bdeaed7149f5a566?pvs=4)
+      - [Chap10. 라이브러리와 모듈](https://familiar-dragon-4ed.notion.site/1d0bf88cd0f580848ddfc7f3369bde69?pvs=4)
+      - [Chap11. 예외 처리](https://familiar-dragon-4ed.notion.site/1d0bf88cd0f5800ab349d2bb35cefda1?pvs=4)
+      - [Chap12. java.base 모듈](https://familiar-dragon-4ed.notion.site/Chap12-java-base-1d0bf88cd0f580c7b1b9fa222c9a9f10?pvs=4)
+      - [Chap13. 제네릭](https://familiar-dragon-4ed.notion.site/Chap13-1d0bf88cd0f580ed822beab1240d9c2e?pvs=4)
+      - [Chap14. 멀티 스레드](https://familiar-dragon-4ed.notion.site/Chap14-1d0bf88cd0f580cd98d7edfad91ccb8c?source=copy_link)
+      - [Chap15. 컬렉션 자료구조](https://github.com/Woomin-Wang/java/blob/main/collection-framework.md)
+      - [Chap16. 람다식](https://familiar-dragon-4ed.notion.site/Chap16-1d0bf88cd0f5806585aef9377f6e6dea?source=copy_link)
+      - [Chap17. 스트림 요소 처리](https://familiar-dragon-4ed.notion.site/Chap17-1d0bf88cd0f58091add8c72ea7861358?source=copy_link)
+      - [Chap18. 데이터 입출력]()
+      - [Chap19. 네트워크 입출력]()
+
+<br>
+  
+- ### **[김영한 실전 자바]**
+    - [Object 클래스](https://familiar-dragon-4ed.notion.site/Object-1c2bf88cd0f580e9999bda727b3ba5ca?pvs=4)
+    - [불변 객체](https://familiar-dragon-4ed.notion.site/1c4bf88cd0f5803ca297d15f46035eef?pvs=4)
+    - [String](https://familiar-dragon-4ed.notion.site/String-1c6bf88cd0f580d0b096df293f66f59d?pvs=4)
+    - [래퍼 객체](https://familiar-dragon-4ed.notion.site/1c8bf88cd0f5806295eaf95791b18831?pvs=4)
+    - [열거형-ENUM](https://familiar-dragon-4ed.notion.site/ENUM-1cabf88cd0f5807a95fad9a786bb1fd6?pvs=4)
+    - [날짜와 시간](https://familiar-dragon-4ed.notion.site/1c3bf88cd0f5802d9243c40bd2c5d78a?pvs=4)
+    - [중첩 클래스, 내부 클래스](https://familiar-dragon-4ed.notion.site/1d0bf88cd0f58001a035d2024b08cbe1?pvs=4)
+    - [예외 처리](https://familiar-dragon-4ed.notion.site/1d2bf88cd0f580ea8adffb54a1e698e3?pvs=4)
+    - [제네릭](https://github.com/Woomin-Wang/java/blob/main/generic.md)
+    - [컬렉션 프레임워크](https://github.com/Woomin-Wang/java/blob/main/collection-framework.md)
+    - [멀티 스레드](https://github.com/Woomin-Wang/java/blob/main/multi-thread.md)
+    - [입출력 스트림](https://github.com/Woomin-Wang/java/blob/main/input-output-stream.md)
+    - [네트워크 입출력](https://github.com/Woomin-Wang/java/blob/main/network-input-ouput.md)
+
+<br>
+<br>
+
+## Spring 
+
+- [Template Callback Pattern](https://familiar-dragon-4ed.notion.site/334bf88cd0f580dba8d2c6f75ed8da93?source=copy_link)
+- [Spring MVC Flow](https://velog.io/@woomin-wang/Spring-Spring-MVC-Flow)
+- [Thymeleaf](https://github.com/Woomin-Wang/spring/blob/main/spring-mvc/thymeleaf.md)
+- [영속성 컨텍스트 (Persistence Context)](https://github.com/Woomin-Wang/spring/blob/main/spring-data-jpa/persistence-context.md)
+- [연관관계 매핑 (Relationship Mapping)]()
+- [상속관계 매핑 (Inheritance Mapping)](https://github.com/Woomin-Wang/spring/blob/main/spring-data-jpa/inheritance-mapping.md)
+- [프록시 (Proxy)](https://github.com/Woomin-Wang/spring/blob/main/spring-data-jpa/proxy.md)
+- [즉시 로딩과 지연 로딩 (Eager Loading and Lazy Loading)]()
+- [Authentication, Authorization](https://github.com/Woomin-Wang/spring/blob/main/spring-security/authentication-authorization.md)
+- [JWT (JSON Web Tokens)](https://familiar-dragon-4ed.notion.site/JWT-2f0bf88cd0f580659d85cf0a61986b7d?source=copy_link)
+- [Spring Security에서 JWT 인증 구조 설계 및 구현](https://medium.com/@Woomin-Wang/spring-security%EC%97%90%EC%84%9C-jwt-%EC%9D%B8%EC%A6%9D-%EA%B5%AC%EC%A1%B0-%EC%84%A4%EA%B3%84%ED%95%98%EA%B8%B0-4ef46d407845)
+
+<br>
 <br>
 
 ## Data Structures
