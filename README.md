@@ -12,7 +12,7 @@
 <br>
 
 ## System Design
-- [Latency Numbers (레이턴시 숫자 감각)]()
+- [Latency Numbers (레이턴시 숫자 감각)](https://github.com/Woomin-Wang/TIL/blob/main/System%20Design/latency-numbers.md)
 
 <br>
 
